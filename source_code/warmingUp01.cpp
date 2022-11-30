@@ -1,4 +1,4 @@
-// warmingUp01.cpp
+// exercise01.cpp
 //
 
 #include <iostream>
@@ -15,7 +15,7 @@ protected:
 public:
     wiseStudent(string in1 = "", string in2 = "", string in3 = "") : name(in1), id(in2), slogan(in3) {};
     void show() {
-        cout << endl << name << ", id = " << id << ", slogan: '" << slogan << "'" << endl;
+        cout << name << ", id = " << id << ", slogan: '" << slogan << "'" << endl;
     }
 };
 
@@ -32,14 +32,9 @@ int main() {
     wiseStudent Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(Vivi22);
 
-
-    wiseStudent Soula19("Soula", "1115202100XXX", "the best"); team.push_back(Soula19);// +1 constructor // +1 push to vector
-
+    // +1 constructor // +1 push to vector
     
 
-    wiseStudent Roula20("Roula", "1115202100XXX", "Astronomy rulez!!!"); team.push_back(Roula20); // +1 constructor // +1 push to vector
-
-
     // +1 constructor // +1 push to vector
 
 
@@ -112,9 +107,10 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-        // +1 constructor // +1 push to vector
-    wiseStudent Vivi42("Vivi2", "1115202100XXX", "W_vs_W");
-    team.push_back(Vivi42);// +1 constructor // +1 push to vector
+    // +1 constructor // +1 push to vector
+
+
+    // +1 constructor // +1 push to vector
 
 
     // +1 constructor // +1 push to vector
