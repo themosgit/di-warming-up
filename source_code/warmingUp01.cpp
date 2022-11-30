@@ -33,6 +33,9 @@ int main() {
     team.push_back(Vivi22);
 
     // +1 constructor // +1 push to vector
+    wiseStudent Vivi42("Vivi2", "1115202100XXX", "W_vs_W");
+    team.push_back(Vivi42);
+
     
 
     // +1 constructor // +1 push to vector
