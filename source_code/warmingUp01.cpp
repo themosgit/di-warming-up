@@ -35,7 +35,7 @@ int main() {
     // +1 constructor // +1 push to vector
     
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Roula20("Roula", "1115202100XXX", "Astronomy rulez!!!"); team.push_back(Roula20); // +1 constructor // +1 push to vector
 
 
     // +1 constructor // +1 push to vector
