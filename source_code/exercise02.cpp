@@ -1,2 +1,0 @@
-// exercise02.cpp
-//
