@@ -32,13 +32,12 @@ int main() {
     wiseStudent Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(Vivi22);
 
-    // +1 constructor // +1 push to vector
-    wiseStudent Vivi42("Vivi2", "1115202100XXX", "W_vs_W");
-    team.push_back(Vivi42);
+
+    wiseStudent Soula19("Soula", "1115202100XXX", "the best"); team.push_back(Soula19);// +1 constructor // +1 push to vector
 
     
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Roula20("Roula", "1115202100XXX", "Astronomy rulez!!!"); team.push_back(Roula20); // +1 constructor // +1 push to vector
 
 
     // +1 constructor // +1 push to vector
@@ -113,7 +112,9 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
+        // +1 constructor // +1 push to vector
+    wiseStudent Vivi42("Vivi2", "1115202100XXX", "W_vs_W");
+    team.push_back(Vivi42);// +1 constructor // +1 push to vector
 
 
     // +1 constructor // +1 push to vector
