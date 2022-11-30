@@ -15,7 +15,7 @@ protected:
 public:
     wiseStudent(string in1 = "", string in2 = "", string in3 = "") : name(in1), id(in2), slogan(in3) {};
     void show() {
-        cout << name << ", id = " << id << ", slogan: '" << slogan << "'" << endl;
+        cout << endl << name << ", id = " << id << ", slogan: '" << slogan << "'" << endl;
     }
 };
 
