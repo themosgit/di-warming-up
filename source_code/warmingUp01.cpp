@@ -1,4 +1,4 @@
-// exercise01.cpp
+// warmingUp01.cpp
 //
 
 #include <iostream>
