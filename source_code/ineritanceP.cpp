@@ -45,6 +45,12 @@ public:
     void show() { cout << number << endl; }
 };
 
+class SubClassPro2 : public SubClassPro {
+public:
+    SubClassPro2(int a) : SubClassPro(a) {};
+    void show() { cout << number << endl; }
+};
+
 class SubClassPub : public SuperClassPub {
 public:
     SubClassPub(int a) : SuperClassPub(a) {};
@@ -57,10 +63,12 @@ int main() {
 
     SubClassPri object1(1);
     SubClassPro object2(2);
+    SubClassPro2 object21(21);
     SubClassPub object3(3);
     
     //object1.show();
     object2.show();
+    object21.show();
     object3.show();
 
     return 0;
