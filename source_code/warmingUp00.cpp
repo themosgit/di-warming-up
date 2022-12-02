@@ -14,7 +14,7 @@ int main() {
     team.push_back("Takis");
     team.push_back("Vivi");
 
-    // +1 push to vector
+    team.push_back("Spiros");
     
     // +1 push to vector
   
@@ -29,25 +29,29 @@ int main() {
     team.push_back("Efthymis");
     
     team.push_back("oxiKafritsas");
-  
-    
+    team.push_back("sokratis");
+    // +1 push to vector
     
     team.push_back("Vaghelis");  
     
     // +1 push to vector
     
-    team.push_back("Harrys");
+    // +1 push to vector
+    team.push_back("Vivi");
   
     team.push_back("Alex");
     
-    team.push_back("Themos");
-    
-    
-    team.push_back("Iosif");
-    
-    team.push_back("Iason"); 
 
-    team.push_back("test for fork");
+    team.push_back("Themos");
+
+    
+    
+
+    
+    team.push_back("Iason");     
+    team.push_back("Kostas");  
+  
+    team.push_back("test for fork");     
 
     // show on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
