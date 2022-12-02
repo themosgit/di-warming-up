@@ -41,7 +41,7 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent gpnb2("gerorge", "sdi", "rand()");  team.push_back(gpnb2);
 
 
     // +1 constructor // +1 push to vector
