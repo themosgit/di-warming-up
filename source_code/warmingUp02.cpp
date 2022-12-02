@@ -30,7 +30,11 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
-
+class Studentgp : public Human {
+public:
+    Studentgp(string a = "", string b = "", string c = "") : Human(a,b,c) {};
+    void show() { cout << "gp" << rand()%100 << endl; }
+};
  /*
  *****************************
  
@@ -53,6 +57,9 @@ int main() {
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
 
+    
+    Studentgp gpnb2("george", "sdi", "rand() again");
+    team.push_back(&gpnb2);
     /*
      *****************************
 
