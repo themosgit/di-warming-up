@@ -75,8 +75,8 @@ int main() {
  wiseStudent isi("isi", "2141587645", "mpla");
     team.push_back(isi);
 
-    // +1 constructor // +1 push to vector
-
+    wiseStudent Kuriaki50("Kuriaki", "1115202000255", "I understand nothing");
+    team.push_back(Kuriaki50);
 
     // +1 constructor // +1 push to vector
 
