@@ -14,7 +14,7 @@ int main() {
     team.push_back("Takis");
     team.push_back("Vivi");
 
-    team.push_back("Spiros");
+    // +1 push to vector
     
     // +1 push to vector
   
@@ -36,8 +36,7 @@ int main() {
     
     // +1 push to vector
     
-    // +1 push to vector
-    team.push_back("Vivi");
+    team.push_back("Harrys");
   
     team.push_back("Alex");
     
