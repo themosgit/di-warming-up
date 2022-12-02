@@ -47,8 +47,8 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
-
+    wiseStudent Vaghelis("Vaghelis", "1115202000084", "I've got the blues.");
+    team.push_back(Vaghelis);
 
     // +1 constructor // +1 push to vector
 
