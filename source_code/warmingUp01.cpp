@@ -32,10 +32,10 @@ int main() {
     wiseStudent Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(Vivi22);
 
-    // +1 constructor // +1 push to vector
+    wiseStudent NotKaf("OxiKafritsas", "1115202100193", "den eimai o kafritsas"); team.push_back(NotKaf);
     
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Kafritsas("Kafritsas", "1115202100060", "OxiOxiKafritsas");  team.push_back(Kafritsas);
 
 
     // +1 constructor // +1 push to vector
@@ -44,14 +44,14 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent thymios03("Efthymis","1115202100102","mpamies");
+    team.push_back(thymios03);
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Vaghelis("Vaghelis", "1115202000084", "I've got the blues.");
+    team.push_back(Vaghelis);
 
-
-    // +1 constructor // +1 push to vector
-
+    wiseStudent Iosif13("Iosif", "1115201800299", "Protathlima tha paroume olous tha tous trelanoume");
 
     // +1 constructor // +1 push to vector
 
@@ -60,7 +60,8 @@ int main() {
     team.push_back(Takis34);
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Takis34("Alex", "1115202000164", "Gyros forever!!");
+    team.push_back(Alex);
 
 
     // +1 constructor // +1 push to vector
