@@ -38,7 +38,8 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Maria12("Maria", "1115202100177", "it takes practice being this cringe ♡");
+    team.push_back(Maria12);
 
 
     // +1 constructor // +1 push to vector
