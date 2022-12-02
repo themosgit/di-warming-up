@@ -18,31 +18,39 @@ int main() {
     
     // +1 push to vector
   
-    // +1 push to vector
+    team.push_back("Iordanis");
     
-    // +1 push to vector
+    team.push_back("Maria")
   
     // +1 push to vector
     
-    // +1 push to vector
+    team.push_back("gpnb");
   
-    // +1 push to vector
+    team.push_back("Efthymis");
+    
+    team.push_back("oxiKafritsas");
+  
+    
+    
+    team.push_back("Vaghelis");  
     
     // +1 push to vector
+    
+    team.push_back("Harrys");
   
-    // +1 push to vector
+    team.push_back("Alex");
     
     // +1 push to vector
-  
-    // +1 push to vector
-    
-    // +1 push to vector
-  
-    // +1 push to vector
-    
-    // +1 push to vector
-    team.push_back("Kostas");       
 
+
+=======
+    team.push_back("Themos")
+    
+    
+    team.push_back("Iosif");
+    
+    team.push_back("Iason");     
+    team.push_back("Kostas");       
     // show on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
         cout << *i << endl;
