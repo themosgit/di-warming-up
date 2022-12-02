@@ -30,14 +30,11 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
-
- /*
- *****************************
- 
- // put here your subclass //
- 
- *****************************
- */
+ class StudentMe : public Human {
+ public:
+     StudentMe(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     void show() { cout << c << " " <<  name << " is the best" << endl; }
+ };
 
 
 int main() {
@@ -53,14 +50,9 @@ int main() {
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
 
-    /*
-     *****************************
-
-     // put here your code //
-
-     *****************************
-     */
-
+    StudentSuper Themos("Themos", "1115202100227", "I Represent Samila");
+    team.push_back(&Themos);
+    
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
