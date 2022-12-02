@@ -35,7 +35,7 @@ int main() {
     // +1 constructor // +1 push to vector
     
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Kafritsas("Kafritsas", "1115202100060", "OxiOxiKafritsas");  team.push_back(Kafritsas);
 
 
     // +1 constructor // +1 push to vector
