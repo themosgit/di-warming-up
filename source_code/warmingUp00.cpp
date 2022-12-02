@@ -40,6 +40,7 @@ int main() {
     team.push_back("Vivi");
   
     team.push_back("Alex");
+    team.push_back("Petros");
     
 
     team.push_back("Themos");
