@@ -32,7 +32,7 @@ int main() {
     wiseStudent Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(Vivi22);
 
-    // +1 constructor // +1 push to vector
+    wiseStudent NotKaf("OxiKafritsas", "1115202100193", "den eimai o kafritsas"); team.push_back(NotKaf);
     
 
     // +1 constructor // +1 push to vector
