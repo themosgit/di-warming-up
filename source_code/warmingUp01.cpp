@@ -66,7 +66,7 @@ int main() {
 
 
     wiseStudent Spiros00("Spiros", "1115201900104", "Go-to enjoyer ");
-    team.push_back(Spiros);
+    team.push_back(Spiros00);
 
     // +1 constructor // +1 push to vector
 
@@ -84,8 +84,7 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    wiseStudent Themos("Themos", "1115202100227", "samila represent");
-    team.push_back(Themos);
+    // +1 constructor // +1 push to vector
 
 
     // +1 constructor // +1 push to vector
