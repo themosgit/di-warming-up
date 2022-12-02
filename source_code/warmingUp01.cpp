@@ -44,7 +44,8 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent thymios03("Efthymis","1115202100102","mpamies");
+    team.push_back(thymios03);
 
 
     // +1 constructor // +1 push to vector
