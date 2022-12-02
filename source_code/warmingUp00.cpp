@@ -30,7 +30,7 @@ int main() {
     
     team.push_back("oxiKafritsas");
   
-    // +1 push to vector
+    
     
     team.push_back("Vaghelis");  
     
@@ -43,7 +43,7 @@ int main() {
     team.push_back("Themos")
     
     
-    
+    team.push_back("Iosif");
     
     team.push_back("Iason"); 
     // show on the screen
