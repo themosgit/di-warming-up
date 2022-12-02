@@ -38,7 +38,8 @@ int main() {
     wiseStudent Kafritsas("Kafritsas", "1115202100060", "OxiOxiKafritsas");  team.push_back(Kafritsas);
 
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Maria12("Maria", "1115202100177", "it takes practice being this cringe ♡");
+    team.push_back(Maria12);
 
 
     wiseStudent gpnb2("gerorge", "sdi", "rand()");  team.push_back(gpnb2);
