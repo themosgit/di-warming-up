@@ -48,8 +48,8 @@ int main() {
     team.push_back(thymios03);
 
 
-    // +1 constructor // +1 push to vector
-
+    wiseStudent Vaghelis("Vaghelis", "1115202000084", "I've got the blues.");
+    team.push_back(Vaghelis);
 
     wiseStudent Iosif13("Iosif", "1115201800299", "Protathlima tha paroume olous tha tous trelanoume");
 
