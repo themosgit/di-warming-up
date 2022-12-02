@@ -92,7 +92,7 @@ int main() {
      *****************************
      */
 
-    StudentSuper Themos("Themos", "1115202100227", "I Represent Samila");
+    StudentMe Themos("Themos", "1115202100227", "I Represent Samila");
     team.push_back(&Themos);
 
 
