@@ -30,11 +30,8 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
-class Studentgp : public Human {
-public:
-    Studentgp(string a = "", string b = "", string c = "") : Human(a,b,c) {};
-    void show() { cout << "gp" << rand()%100 << endl; }
-};
+
+
  /*
  *****************************
  
@@ -42,6 +39,22 @@ public:
  
  *****************************
  */
+
+ class StudentMe : public Human {
+ public:
+     StudentMe(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     void show() { cout << c << " " <<  name << " is the best" << endl; }
+ };
+
+
+
+
+class Studentgp : public Human {
+public:
+    Studentgp(string a = "", string b = "", string c = "") : Human(a,b,c) {};
+    void show() { cout << "gp" << rand()%100 << endl; }
+};
+
 
 
 int main() {
@@ -58,16 +71,24 @@ int main() {
     team.push_back(&Vivi22);
 
     
-    Studentgp gpnb2("george", "sdi", "rand() again");
-    team.push_back(&gpnb2);
+
     /*
      *****************************
+    Studentgp gpnb2("george", "sdi", "rand() again");
+    team.push_back(&gpnb2);
+
 
      // put here your code //
 
      *****************************
      */
 
+    StudentSuper Themos("Themos", "1115202100227", "I Represent Samila");
+    team.push_back(&Themos);
+
+
+
+    
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
