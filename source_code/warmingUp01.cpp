@@ -56,7 +56,7 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    wiseStudent Takis34("Takis", "1115202100138", "Burgers forever!");
+    wiseStudent Takis34("Takis", "1115202100138", "Burgers forever!"); 
     team.push_back(Takis34);
 
 
