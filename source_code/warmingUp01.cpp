@@ -123,6 +123,10 @@ int main() {
     
 
 
+    wiseStudent Iason22("Iason", "111520210097", "LGBT Rights, I guess?");
+    team.push_back(Iason22);
+
+
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
