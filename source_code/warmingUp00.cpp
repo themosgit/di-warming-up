@@ -20,7 +20,7 @@ int main() {
   
     team.push_back("Iordanis");
     
-    team.push_back("Maria")
+    team.push_back("Maria");
   
     // +1 push to vector
     
@@ -40,12 +40,15 @@ int main() {
   
     team.push_back("Alex");
     
-    team.push_back("Themos")
+    team.push_back("Themos");
     
     
     team.push_back("Iosif");
     
     team.push_back("Iason"); 
+
+    team.push_back("test for fork");
+
     // show on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
         cout << *i << endl;
