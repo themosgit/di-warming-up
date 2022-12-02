@@ -51,8 +51,7 @@ int main() {
     // +1 constructor // +1 push to vector
 
 
-    // +1 constructor // +1 push to vector
-
+    wiseStudent Iosif13("Iosif", "1115201800299", "Protathlima tha paroume olous tha tous trelanoume");
 
     // +1 constructor // +1 push to vector
 
