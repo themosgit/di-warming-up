@@ -54,7 +54,7 @@ int main() {
 
     wiseStudent Iosif13("Iosif", "1115201800299", "Protathlima tha paroume olous tha tous trelanoume");
 
-    // +1 constructor // +1 push to vector
+    wiseStudent Kostas("Kostas", "1925", "Protathlima kai kypello ksana ston peiraia");     team.push_back(Kostas);
 
 
     wiseStudent Takis34("Takis", "1115202100138", "Burgers forever!"); 
