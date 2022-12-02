@@ -42,7 +42,10 @@ int main() {
     
     // +1 push to vector
     
-
+    
+    
+    
+    team.push_back("Iason"); 
     // show on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
         cout << *i << endl;
