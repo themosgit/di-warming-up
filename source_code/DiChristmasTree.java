@@ -1,6 +1,6 @@
 // DiChristmasTree.java
 // based on: https://github.com/arnab132/Christmas-Tree-Pyramid-Pattern
-//
+// extension: can you override the constructor with anonymous nested classes
 
 package Xmas;
 import java.util.ArrayList;
