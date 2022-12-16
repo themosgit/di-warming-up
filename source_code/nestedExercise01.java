@@ -41,6 +41,7 @@ class Main{
         void speak(){ System.out.println("Kontermen For Ever!!");}
       };
       Obj04.speak();
+      
 // <<<<<<<<<<<<< 04 <<<<<<<<<<<<<       
       
 
