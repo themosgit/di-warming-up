@@ -37,10 +37,10 @@ class Main{
       
 
 // >>>>>>>>>>>>> 04 >>>>>>>>>>>>>        
-      Xmas Obj04 = new Xmas(){
+      Xmas Obj20 = new Xmas(){
         void speak(){ System.out.println("Kontermen For Ever!!");}
       };
-      Obj04.speak();
+      Obj20.speak();
       
 // <<<<<<<<<<<<< 04 <<<<<<<<<<<<<       
       
