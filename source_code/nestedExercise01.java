@@ -69,10 +69,10 @@ class Main{
 // <<<<<<<<<<<<< 09 <<<<<<<<<<<<<    
       
 
-// >>>>>>>>>>>>> 10 >>>>>>>>>>>>>        
-        
-// <<<<<<<<<<<<< 10 <<<<<<<<<<<<<       
-      
+Xmas Elena = new Xmas(){  
+            void speak(){System.out.println("Chocomelomakarona for ever!!");}  
+        };  
+        Elena.speak();  
 
 // >>>>>>>>>>>>> 11 >>>>>>>>>>>>>        
         
