@@ -47,7 +47,10 @@ class Main{
       
 
 // >>>>>>>>>>>>> 06 >>>>>>>>>>>>>        
-        
+        Xmas Alex = new Xmas(){  
+            void speak(){System.out.println("Melomakarona for ever!!");}  
+        };  
+        Alex.speak();
 // <<<<<<<<<<<<< 06 <<<<<<<<<<<<<  
       
       
